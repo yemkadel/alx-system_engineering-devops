@@ -1,2 +1,2 @@
 #!/bin/bash
-grep '.*iacta.*s$' testfile
+head -n 3 iacta | tail -n 1
