@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # This is the comment
+
 lines=$(ls)
 for i in $lines; do
-	echo $i | cut -d '-' -f2
+	echo "$i" | cut -d '-' -f2
 done
