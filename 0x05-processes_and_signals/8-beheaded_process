@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# This is the comment section
+# This is. the comment section
 
 pkill -f -SIGKILL 7-highlander
